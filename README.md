@@ -1,5 +1,5 @@
 
-# Flashbots Transaction Sender
+# Rescue tokens
 
 This project demonstrates how to use Flashbots to send transactions on the Ethereum network. It uses two wallets: a sponsor wallet to pay the fees and a victim wallet to execute a specific action (in this case, transferring USDC tokens). The transactions are bundled and sent through Flashbots to prevent them from being visible in the public mempool before they are mined.
 
