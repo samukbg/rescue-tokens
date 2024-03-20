@@ -56,7 +56,7 @@ const main = async () => {
                     gasLimit: "50000",
                     data: iface.encoderFunctionData("transfer", [
                         sponsor.address,
-                        utils.parseEther("100", "USDC"),
+                        utils.parseEther("100", "USDC"), //Transferring 100 USDC to another wallet
                     ]),
                     maxFeePerGas: utils.parseUnits("3", "gwei"),
                     maxPriorityFeePerGas: utils.parseUnits("2", "gwei"),
