@@ -20,8 +20,8 @@ You will also need to have two Ethereum wallets ready:
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/samukbg/rescue-tokens.git
+   cd rescue-tokens
    ```
 
 2. Install the required dependencies.
@@ -50,10 +50,8 @@ You will also need to have two Ethereum wallets ready:
 To run the script, execute the following command in your terminal:
 
 ```bash
-npx ts-node <script-name>.ts
+npx ts-node index.ts
 ```
-
-Replace `<script-name>.ts` with the name of your TypeScript file.
 
 ## Notes
 
